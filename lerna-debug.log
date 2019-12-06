@@ -1,0 +1,13 @@
+0 silly argv { _: [ 'import' ],
+0 silly argv   lernaVersion: '3.19.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   dir: '../project-reactjs/' }
+1 notice cli v3.19.0
+2 verbose rootPath /home/espxmedia/syn/project-lerna
+3 info versioning independent
+4 error Error: Cannot find module '/home/espxmedia/syn/project-reactjs/package.json'
+4 error     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+4 error     at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+4 error     at Module.require (internal/modules/cjs/loader.js:692:17)
+4 error     at require (internal/modules/cjs/helpers.js:25:18)
+4 error     at ImportCommand.initialize (/home/espxmedia/syn/project-lerna/node_modules/@lerna/import/index.js:57:25)
